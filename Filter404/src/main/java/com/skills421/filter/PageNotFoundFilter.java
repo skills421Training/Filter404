@@ -22,9 +22,7 @@ import com.skills421.filter.wrapper.PageNotFoundResponse;
 public class PageNotFoundFilter implements Filter
 {
 	private void writeFile(String fullpath, String content) throws IOException
-	{
-		System.out.println(fullpath);
-		
+	{		
 		FileWriter fw = new FileWriter(fullpath);
 		fw.write(content);
 		fw.flush();
