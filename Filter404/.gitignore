@@ -1,0 +1,8 @@
+/target/
+.project
+/target/
+/Volumes/
+.DS_Store
+.settings/
+.DS_Store/
+.classpath
